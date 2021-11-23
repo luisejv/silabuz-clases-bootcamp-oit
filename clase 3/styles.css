@@ -1,0 +1,36 @@
+div {
+  background-color: rgb(36, 109, 122);
+  text-align: start;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding-left: 150px;
+  font-family: "Comforter Brush", cursive;
+  font-size: 16px;
+}
+
+/* Selector de clase */
+.my-first-class {
+  font-size: 50px;
+}
+
+.color-white {
+  color: white;
+}
+
+/* Selector de id */
+#parrafo1 {
+  background-color: rgb(200, 107, 53);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector de etiqueta */
+/* section {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+} */
