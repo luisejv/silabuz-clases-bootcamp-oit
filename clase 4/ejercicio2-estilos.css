@@ -1,0 +1,25 @@
+table {
+  margin: 0 auto;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.color-yellow,
+td strong {
+  color: rgb(255, 208, 0);
+}
+
+.color-red {
+  color: red;
+}
+
+td {
+  color: green;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}

@@ -1,0 +1,112 @@
+button {
+  width: 100px;
+  height: 100px;
+}
+
+/* Selector de clase */
+.my-first-class {
+  background-color: rgb(36, 109, 122);
+  text-align: start;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding-left: 150px;
+  font-family: "Comforter Brush", cursive;
+  font-size: 50px;
+}
+
+.color-white {
+  color: white;
+}
+
+.primera-clase {
+  color: red;
+}
+
+.segunda-clase {
+  color: blue;
+}
+
+.primera-clase,
+.segunda-clase {
+  font-size: 20px;
+}
+
+/* Selector de id */
+#parrafo1 {
+  background-color: rgb(200, 107, 53);
+}
+
+/* #parrafo1 > button {
+  background-color: blue;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector de etiqueta */
+/* section {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+} */
+
+.fondo-verde {
+  background-color: green;
+  font-size: 30px;
+  padding: 25px;
+  color: white;
+  border: 10px solid brown;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.vacia {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+}
+
+#primer-parrafo {
+  color: rgb(200, 107, 53);
+  line-height: 100px;
+  letter-spacing: -5px;
+  word-spacing: -5px;
+}
+
+.text-centrado {
+  text-align: justify;
+  font-size: 50px;
+}
+
+#clase-1 {
+  font-size: 100px;
+  color: blue;
+  text-shadow: 4px 6px 15px purple;
+  /* font-weight: 900; */
+}
+#clase-2 {
+  color: green;
+}
+#clase-3 {
+  font-size: 200px;
+  color: yellow;
+}
+#clase-4 {
+  color: black;
+  font-size: 50px;
+}
+#clase-5 {
+  color: red;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#clase-1 {
+  display: none;
+}

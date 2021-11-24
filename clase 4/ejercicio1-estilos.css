@@ -1,0 +1,36 @@
+h1 {
+  border: 2px solid blue;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  border: 2px solid gray;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.datos-libro {
+  border: 2px solid yellowgreen;
+}
+
+.datos-libro li {
+  margin-bottom: 15px;
+}
+
+/* Una forma de resolver */
+.datos-libro li:last-of-type {
+  margin-bottom: 0px;
+}
+
+/* Otra forma de resolver */
+#ultimo-hijo {
+  margin-bottom: 0px;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
