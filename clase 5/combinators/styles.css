@@ -1,0 +1,57 @@
+h1,
+h2 {
+  color: darkcyan;
+}
+
+.clase1,
+.clase2 {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clase1 {
+  background-color: darkseagreen;
+}
+
+.clase1 h2 {
+  color: white;
+}
+
+.clase2 {
+  background-color: darkslateblue;
+}
+
+.clase2 > h2 {
+  color: red;
+}
+
+h3 + p {
+  color: green;
+}
+
+/* #parrafo {
+  color: yellow;
+}
+
+#tercer-parrafo {
+  font-size: 12px;
+} */
+
+h3 ~ p {
+  color: red;
+}
+
+#parrafo {
+  background-color: aquamarine;
+  padding: 15px;
+}
+
+* {
+  border-radius: 25px;
+}
+
+#tercer-parrafo * {
+  color: dodgerblue;
+}

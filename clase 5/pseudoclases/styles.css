@@ -1,0 +1,97 @@
+a {
+  background-color: deepskyblue;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  height: 30px;
+  box-shadow: 4px 5px 6px #aaa;
+}
+
+/* a:focus {
+  box-shadow: 4px 5px 6px #aaa;
+} */
+
+a:visited {
+  color: darkblue;
+  background-color: cadetblue;
+}
+
+a:hover {
+  background-color: darkviolet;
+  color: aqua;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a:active {
+  background-color: green;
+  box-shadow: none;
+}
+
+/* div:hover {
+  color: blue;
+} */
+
+/* div:active {
+  background-color: black;
+  font-size: 50px;
+} */
+
+input:focus {
+  background-color: dodgerblue;
+  border-radius: 25px;
+}
+
+input:checked {
+  background-color: black;
+  /* width: 50px;
+  height: 50px; */
+}
+
+body {
+  padding: 10px;
+}
+
+#contenido {
+  margin-top: 100px;
+}
+
+strong:first-child {
+  background-color: cyan;
+}
+
+strong:last-child {
+  background-color: yellowgreen;
+}
+
+ol li:last-child {
+  color: green;
+}
+
+ol li:first-child {
+  color: red;
+}
+
+/* Pares */
+.pares-e-inpares li:nth-child(2n) {
+  color: blue;
+}
+
+/* Inpares */
+.pares-e-inpares li:nth-child(2n + 1) {
+  color: lightblue;
+}
+
+.hijos-reversa li:nth-last-child(2) {
+  background-color: burlywood;
+}
+
+/* 
+    Queda pendiente ver BEFORE y AFTER
+*/
