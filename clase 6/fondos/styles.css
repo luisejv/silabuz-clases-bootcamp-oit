@@ -1,0 +1,41 @@
+.fondo-div {
+  /* width: 1600px;
+  height: 800px; */
+  width: 1600px;
+  height: 800px;
+  background-color: darkturquoise;
+  /* background-image: url(images/marvel.png); */
+  /* background-image: linear-gradient(
+    225deg,
+    #710201,
+    pink,
+    violet,
+    red,
+    blue,
+    green,
+    yellow
+  ); */
+  /* background-image: radial-gradient(
+    #710201,
+    pink,
+    violet,
+    red,
+    blue,
+    green,
+    yellow
+  ); */
+  background-image: url(images/t51VT.png), linear-gradient(45deg, black, white);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 50%;
+  background-attachment: scroll;
+  color: white;
+  font-size: 50px;
+  /* filter: hue-rotate(45deg); */
+  /* background: darkturquoise url(images/marvel.png) no-repeat fixed 0% 50%; */
+  /* opacity: 0.8; */
+}
+
+body {
+  height: 2000px;
+}
