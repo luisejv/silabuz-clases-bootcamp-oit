@@ -1,0 +1,32 @@
+.container {
+  width: 250px;
+  display: inline-block;
+  position: relative;
+}
+
+.carta-1,
+.carta-2 {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.carta-1 {
+  background-color: #81dcee;
+  position: fixed;
+  top: 10px;
+}
+
+.carta-2 {
+  background-color: #e1a5f7;
+  position: sticky;
+  top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

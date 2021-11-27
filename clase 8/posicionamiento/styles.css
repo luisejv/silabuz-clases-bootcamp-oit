@@ -1,0 +1,54 @@
+.font-20 {
+  font-size: 20px;
+}
+
+.fondo {
+  background-color: crimson;
+  padding: 40px;
+  display: block;
+  position: sticky;
+  top: 0px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.container2 {
+  width: 700px;
+  height: 400px;
+  background-color: blanchedalmond;
+  margin: auto;
+  position: relative;
+}
+
+.imagen,
+.imagen2,
+.imagen3,
+.imagen4 {
+  width: 100px;
+}
+
+.imagen {
+  position: relative;
+  top: 100px;
+}
+
+.imagen2 {
+  position: absolute;
+  left: 120px;
+  z-index: 11;
+  /* top: -200px; */
+}
+
+.imagen3 {
+  position: fixed;
+  z-index: 1000;
+}
+
+.imagen4 {
+  position: relative;
+  z-index: 10;
+}
