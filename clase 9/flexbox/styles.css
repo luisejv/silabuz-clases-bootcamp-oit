@@ -1,0 +1,22 @@
+.container {
+  height: 400px;
+  background-color: cornflowerblue;
+  display: flex;
+  padding: 0px 80px;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 10px;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+}
