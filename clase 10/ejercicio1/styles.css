@@ -1,0 +1,77 @@
+:root {
+  --fondoBody: rgb(195, 234, 248);
+  --fondoHeader: rgb(2, 190, 176);
+  --fondoArticle: rgb(250, 175, 76);
+  --fondoAside: rgb(110, 218, 110);
+  --fondoImagen: rgb(251, 209, 74);
+  --marginElements: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--fondoBody);
+  font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: var(--fondoHeader);
+  height: 100px;
+
+  margin: var(--marginElements);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--marginElements);
+}
+
+.aside,
+.article {
+  height: calc(100vh - 280px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside {
+  background-color: var(--fondoAside);
+  width: 33%;
+}
+
+.article {
+  margin-left: var(--marginElements);
+  width: calc(100vw - 33%);
+  background-color: var(--fondoArticle);
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.image {
+  background-color: var(--fondoImagen);
+  width: 150px;
+  margin: var(--marginElements);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-flex {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+}

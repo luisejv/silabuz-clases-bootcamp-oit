@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  background-color: goldenrod;
+  height: 500px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex-grow: 1;
+  background-color: white;
+  min-width: 200px;
+}
+
+.right {
+  flex-grow: 2;
+  background-color: black;
+  min-width: 400px;
+}
+
+@media screen and (max-width: 655px) {
+  .left {
+    order: 2;
+  }
+  .right {
+    order: 1;
+  }
+}
