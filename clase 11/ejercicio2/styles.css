@@ -1,0 +1,25 @@
+:root {
+  --color-fucsia: rgb(254, 0, 173);
+  --color-pink: rgb(254, 183, 198);
+}
+
+.flex {
+  display: flex;
+  margin: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.item {
+  background-color: var(--color-fucsia);
+  margin: 5px;
+  flex-grow: 1;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.item .item {
+  background-color: var(--color-pink);
+  height: 30px;
+  color: var(--color-fucsia);
+}

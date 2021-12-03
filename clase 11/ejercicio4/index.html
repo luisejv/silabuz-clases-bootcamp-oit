@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <ul class="links">
+          <li>Logo</li>
+          <li>Home</li>
+          <li>Products</li>
+          <li>Services</li>
+        </ul>
+      </nav>
+      <div>
+        <input type="text" placeholder="Search" />
+        <button>Buscar</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <aside class="asides">Side Nav</aside>
+      <div class="form-container">
+        <form>
+          <div class="inner-container">
+            <div class="main-form">
+              <div class="part-1">
+                <div class="form-group">
+                  <label for="nombre">Nombre: </label>
+                  <input type="text" id="nombre" />
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Teléfono: </label>
+                  <input type="text" id="telefono" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email: </label>
+                  <input type="email" id="email" />
+                </div>
+                <div class="form-group">
+                  <label for="fecha">Fecha de recojo: </label>
+                  <input type="datetime-local" id="fecha" />
+                </div>
+                <div class="form-group">
+                  <label for="recojo">Lugar de recojo: </label>
+                  <select id="recojo">
+                    <option selected>Elige uno</option>
+                    <option>San Borja</option>
+                    <option>Villa El Salvador</option>
+                    <option>Ancon</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="entrega">Lugar de entrega: </label>
+                  <input type="text" id="entrega" />
+                </div>
+              </div>
+              <div class="part-2">
+                <div>
+                  <div>Que taxi requieres</div>
+                  <div>
+                    <input type="radio" name="tipotaxi" id="Auto" />
+                    <label for="Auto">Auto</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="tipotaxi" id="Moto" />
+                    <label for="Moto">Moto</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="tipotaxi" id="Van" />
+                    <label for="Van">Van</label>
+                  </div>
+                </div>
+                <div>
+                  <div>Extras</div>
+                  <div>
+                    <input type="checkbox" id="cinturones" />
+                    <label for="cinturones">Cinturones de seguridad</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="acondicionado" />
+                    <label for="acondicionado">Aire acondicionado</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="musica" />
+                    <label for="musica">Buena música</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="button">Submit booking</button>
+          </div>
+        </form>
+      </div>
+      <aside class="asides">Aside</aside>
+    </main>
+
+    <footer class="footer">Copyright 2021</footer>
+  </body>
+</html>
