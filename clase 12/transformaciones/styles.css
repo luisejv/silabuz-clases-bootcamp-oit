@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.transition {
+  background-color: darkslateblue;
+  color: white;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 30px;
+  transform: skewY(20deg) rotate(30deg) translate(200px, -100px);
+  /* transition: all 3s ease; */
+  /* transform: translate(100px, 200px); */
+  /* transform: scale(0.3); */
+}
+
+/* @keyframes rotation {
+  0% {
+    transform: rotate3d(1, 0, 0, 5deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 220deg);
+  }
+} */
+
+.anim {
+  background: #000;
+  color: #fff;
+  width: 300px;
+  height: 300px;
+  transform: rotate3d(1, 1, 0, 220deg);
+  /* animation: rotation 2s ease-in-out 0s infinite alternate none running; */
+}
