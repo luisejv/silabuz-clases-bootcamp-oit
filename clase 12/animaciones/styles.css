@@ -1,0 +1,67 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.transition {
+  background-color: darkslateblue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 30px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  animation: miPrimeraAnimacion 4s cubic-bezier(0.05, 1.13, 1, 1.48) 0s infinite
+    backwards;
+  background-size: contain;
+  /* background-position: center; */
+  background-repeat: round;
+}
+
+@keyframes miPrimeraAnimacion {
+  from {
+    color: red;
+    left: 100px;
+    top: 100px;
+    background-image: url(https://www.egames.news/__export/1629747492246/sites/debate/img/2021/08/23/spider-man-3.jpg_976912859.jpg);
+  }
+
+  12% {
+    background-color: black;
+  }
+
+  25% {
+    color: red;
+  }
+
+  30% {
+    background-color: greenyellow;
+    background-image: url(https://www.egames.news/__export/1629747492246/sites/debate/img/2021/08/23/spider-man-3.jpg_976912859.jpg);
+  }
+
+  60% {
+    background-image: url(https://cdn.pocket-lint.com/r/s/1200x/assets/images/152053-tv-feature-what-is-the-best-order-to-watch-all-the-spider-man-movies-and-shows-image1-lpdrxizmfk.jpg);
+  }
+
+  75% {
+    background-image: url(https://cdn.pocket-lint.com/r/s/1200x/assets/images/152053-tv-feature-what-is-the-best-order-to-watch-all-the-spider-man-movies-and-shows-image1-lpdrxizmfk.jpg);
+  }
+
+  to {
+    color: blue;
+    left: 200px;
+    top: 200px;
+    background-image: url(https://cdn.pocket-lint.com/r/s/1200x/assets/images/152053-tv-feature-what-is-the-best-order-to-watch-all-the-spider-man-movies-and-shows-image1-lpdrxizmfk.jpg);
+  }
+}
+
+/* .transition:hover {
+  color: green;
+  height: 150px;
+  width: 150px;
+  left: 200px;
+  top: 500px;
+} */
