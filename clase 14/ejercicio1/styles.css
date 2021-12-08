@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 60px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+.nav-links li:nth-child(2n) {
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  padding: 0px 10px;
+  margin: 0px;
+}
+
+.nav-links li:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.logo span:first-child {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.logo span {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.main-content {
+  margin: 30px 0px;
+}
+
+.section-1 {
+  padding: 15px;
+}
+
+.section-2 {
+  display: flex;
+}
+
+.section-1 img {
+  width: 100%;
+}
+
+.section-2 img {
+  width: 50%;
+  padding: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-top: 1px solid lightgrey;
+}
+
+.span-footer {
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+.menu {
+  display: none;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .header-container {
+    padding: 20px;
+  }
+
+  .section-2 {
+    flex-direction: column;
+  }
+
+  .section-2 img {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 0px 20px;
+  }
+
+  .logo span:first-child {
+    font-size: 25px;
+  }
+
+  .logo span {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo span:first-child {
+    font-size: 20px;
+  }
+
+  .logo span {
+    font-size: 18px;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
