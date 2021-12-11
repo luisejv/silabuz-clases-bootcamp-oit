@@ -1,0 +1,46 @@
+#header,
+#page,
+div,
+#footer {
+  min-height: 200px;
+  border: 2px solid black;
+}
+
+#page {
+  display: flex;
+  /* width: 600px; */
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header,
+#page,
+#footer {
+  background-color: grey;
+}
+
+#menu,
+#content {
+  display: inline-block;
+}
+
+#menu {
+  background-color: blue;
+  width: 30%;
+}
+
+#content {
+  background-color: lightgrey;
+  width: 70%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
