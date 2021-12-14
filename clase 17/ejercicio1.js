@@ -1,7 +1,6 @@
 console.log("[");
 let contador = 0;
 let contador2 = 0;
-let lineas = 1;
 let linea = "";
 
 while (contador <= 50) {
@@ -16,7 +15,6 @@ while (contador <= 50) {
     console.log(linea);
     contador2 = 0;
     linea = "";
-    lineas++;
   }
 }
 
