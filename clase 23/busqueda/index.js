@@ -45,23 +45,3 @@ const binarySearch = (array, busqueda) => {
 };
 
 console.log(binarySearch(alumnos, "Yefer lesvier Garcia fernandez"));
-
-const alumnosNuevo = [];
-
-for (let i = 0; i < alumnos.length; i++) {
-  const primerNombre = alumnos[i].nombre.split(" ")[0];
-  alumnosNuevo.push(primerNombre);
-}
-
-console.log(alumnosNuevo);
-
-// const functionDeArmado = () => {
-
-// }
-
-// const alumnosNuevo2 = alumnos.map(functionDeArmado);
-const alumnosNuevo2 = alumnos.map((alumno) => alumno.nombre.split(" ")[0]);
-const alumnosNuevo3 = alumnos.map((alumno) => alumno.edad);
-
-console.log(alumnosNuevo2);
-console.log(alumnosNuevo3);
