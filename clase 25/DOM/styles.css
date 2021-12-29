@@ -1,3 +1,8 @@
 .data {
   font-size: 30px;
 }
+
+.newClass {
+  background-color: blue;
+  color: green;
+}
