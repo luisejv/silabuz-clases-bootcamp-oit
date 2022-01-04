@@ -42,13 +42,15 @@ body {
 .radio-flex {
   display: flex;
   width: 70%;
+  height: 50px;
   margin-left: 20px;
+  align-items: center;
   justify-content: space-around;
 }
 
 .text-center {
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .radio {
