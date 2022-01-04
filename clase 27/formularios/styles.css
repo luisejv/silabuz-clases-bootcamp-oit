@@ -81,3 +81,13 @@ body {
 .btn-submit:active {
   box-shadow: none;
 }
+
+.message {
+  color: red;
+  font-size: 12px;
+  margin-top: -25px;
+}
+
+.hidden {
+  display: none;
+}
