@@ -1,0 +1,13 @@
+.accordion-button {
+  display: block;
+}
+
+.recuadro {
+  background-color: cornflowerblue;
+  height: 200px;
+  display: inline-block;
+}
+
+.recuadro1 {
+  background-color: cadetblue;
+}

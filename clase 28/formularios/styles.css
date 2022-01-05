@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  margin: 20px auto;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #676767;
+  width: 800px;
+  padding: 25px 100px;
+  text-align: center;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.form-group {
+  margin: 25px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input-text {
+  width: 70%;
+  height: 50px;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.input-text:focus {
+  border: none;
+  outline: cornflowerblue solid 1px;
+}
+
+.radio-flex {
+  display: flex;
+  width: 70%;
+  height: 50px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-center {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.radio {
+  transform: scale(1.5);
+}
+
+#checkbox {
+  margin-right: 20px;
+  transform: scale(1.5);
+}
+
+.btn-submit {
+  width: 150px;
+  padding: 15px 20px;
+  background-color: #278ee6;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  margin: 30px 0px;
+  box-shadow: 2px 2px 4px #676767;
+}
+
+.btn-submit:hover {
+  background-color: rgba(39, 142, 230, 0.8);
+}
+
+.btn-submit:active {
+  box-shadow: none;
+}
+
+.message {
+  color: red;
+  font-size: 12px;
+  margin-top: -25px;
+}
+
+.hidden {
+  display: none;
+}
