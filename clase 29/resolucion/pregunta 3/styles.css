@@ -1,0 +1,49 @@
+.grocery-list {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 3px 10px #ccc;
+  padding: 40px;
+  width: 100%;
+}
+
+body {
+  background-color: #eee;
+}
+
+.containerTotal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.grocery-input,
+.grocery-btn {
+  width: 100%;
+}
+
+.rowInput {
+  margin-top: 20px;
+}
+
+.rowInput .col-10,
+.rowInput .col-2 {
+  padding: 0;
+}
+
+.grocery-btn {
+  background-color: cornflowerblue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  outline: none;
+  height: 30px;
+}
+
+.grocery-input {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  outline: none;
+  border: 1px solid grey;
+  height: 30px;
+  padding: 5px 10px;
+}
