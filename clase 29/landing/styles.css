@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 166, 69);
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.section-1 {
+  height: 100vh;
+  padding: 100px 180px;
+}
+
+.pos-relative {
+  height: 100%;
+  position: relative;
+}

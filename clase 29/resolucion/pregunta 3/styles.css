@@ -47,3 +47,15 @@ body {
   height: 30px;
   padding: 5px 10px;
 }
+
+.fa-pen-to-square {
+  color: green;
+}
+
+.list-btn {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 7px 10px;
+}
