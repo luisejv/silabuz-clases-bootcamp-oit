@@ -41,16 +41,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="login.html" class="nav-link">Login</a>
-            </li>
-            <li class="nav-item">
-              <a href="signup.html" class="nav-link">Sign up</a>
-            </li>
-          </ul>
-        </div>
+        <div class="collapse navbar-collapse" id="navmenu"></div>
       </div>
     </nav>
     <br />
@@ -188,7 +179,7 @@
           </div>
           <div class="modal-body">
             <p class="lead">Informacion De Producto</p>
-            <form>
+            <form id="create-product">
               <div class="mb-3">
                 <label for="name" class="col-form-label"> Name: </label>
                 <input type="text" class="form-control" id="product-name" />
@@ -237,7 +228,6 @@
               </div>
             </form>
           </div>
-
           <div class="modal-footer">
             <button
               type="button"
@@ -246,11 +236,7 @@
             >
               Close
             </button>
-            <button
-              type="button"
-              class="btn btn-success"
-              onclick="processProductCreation()"
-            >
+            <button type="button" id="submit-product" class="btn btn-success">
               Submit
             </button>
           </div>
@@ -263,6 +249,10 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/fetchCategories.js"></script>
     <script src="assets/js/fetchProducts.js"></script>
+    <script src="assets/js/checkIfLogged.js"></script>
+    <script src="assets/js/createProduct.js"></script>
+    <script src="assets/js/updateProduct.js"></script>
   </body>
 </html>

@@ -12,6 +12,7 @@ fetch(url)
     console.log(response);
     response.slice(0, 10).forEach((articulo) => {
       const {
+        pk,
         image_url,
         name,
         price,
@@ -26,7 +27,7 @@ fetch(url)
                 <h5 class="card-title">${name}</h5>
                 <p class="card-text">${categoria}</p>
                 <p class="card-text"><small class="text-danger">${price} $</small></p>
-                <button class="btn btn-success"             data-bs-toggle="modal" data-bs-target="#enroll")>Editar articulo</button>
+                <button class="btn btn-success editButtons" id=${pk} data-bs-toggle="modal" data-bs-target="#enroll">Editar articulo</button>
             </div>
         </div>
         `;
@@ -35,6 +36,31 @@ fetch(url)
   })
   .catch((error) => {
     console.log(error);
+  })
+  .finally(() => {
+    const botonesEdicion = document.querySelectorAll(".editButtons");
+
+    console.log(botonesEdicion);
+
+    botonesEdicion.forEach((boton) => {
+      boton.addEventListener("click", () => {
+        console.log(boton.parentElement);
+        const nombreInput = document.getElementById("product-name");
+        const imagenInput = document.getElementById("product-image-url");
+        const priceInput = document.getElementById("product-price");
+        const categoryInput = document.getElementById("category-id");
+        const categoria = document.getElementById("categories");
+        nombreInput.value = boton.parentElement.children[0].innerText;
+        imagenInput.value = boton.parentElement.previousElementSibling.src;
+        priceInput.value =
+          boton.parentElement.children[2].innerText.split(" ")[0];
+        categoryInput.value = categories.find(
+          (categ) => categ.name === boton.parentElement.children[1].innerText
+        ).pk;
+        categoria.innerText = boton.parentElement.children[1].innerText;
+        sessionStorage.setItem("pkProduct", boton.id);
+      });
+    });
   });
 
 const DTO = {
