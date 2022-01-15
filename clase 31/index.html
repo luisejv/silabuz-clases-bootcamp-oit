@@ -52,7 +52,7 @@
     >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
-          <div>
+          <div id="home-landing">
             <h1 class="float-end">
               Crea tus propios<span class="text-success"> Productos </span>
             </h1>
@@ -61,13 +61,28 @@
               Tenemos varias categorias entre las cuales se encuentran:
               farmacia, hogar, comestibles, Cuidado persona, etc...
             </p>
-            <button
-              class="btn btn-success btn-lg m-3 float-end"
-              data-bs-toggle="modal"
-              data-bs-target="#enroll"
-            >
-              Crear Productos
-            </button>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="filter-product"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Filtrar por categoria
+              </button>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="dropdownMenuButton1"
+                id="category-filter"
+              ></ul>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="name-filter"
+              placeholder="Busca aqui..."
+            />
           </div>
         </div>
       </div>
@@ -86,8 +101,19 @@
           <h3 class="mb-3 mb-md-0">Recibe Informacion Actualizada</h3>
 
           <div class="input-group news-input">
-            <input type="text" class="form-control" placeholder="Email..." />
-            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+            <input
+              type="email"
+              class="form-control"
+              id="newsletter"
+              placeholder="Email..."
+            />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="newsletter-btn"
+            >
+              Submit
+            </button>
           </div>
         </div>
       </div>
@@ -254,5 +280,7 @@
     <script src="assets/js/checkIfLogged.js"></script>
     <script src="assets/js/createProduct.js"></script>
     <script src="assets/js/updateProduct.js"></script>
+    <script src="assets/js/newsletter.js"></script>
+    <script src="assets/js/logout.js"></script>
   </body>
 </html>

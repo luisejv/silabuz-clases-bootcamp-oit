@@ -30,7 +30,10 @@ botonProducto.addEventListener("click", (event) => {
       .catch((error) => console.log(error));
   } else {
     fetch("https://silabuz-api-project.herokuapp.com/products/products/", {
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Token ${localStorage.getItem("token")}`,
+      },
       method: "POST",
       body: JSON.stringify(body),
     })
