@@ -1,0 +1,16 @@
+{
+  "name": "clase-33",
+  "version": "1.0.0",
+  "description": "mi primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack"
+  },
+  "author": "luisejv",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
