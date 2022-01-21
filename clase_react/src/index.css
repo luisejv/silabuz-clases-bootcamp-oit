@@ -21,3 +21,37 @@ code {
   color: black;
   margin: 20px;
 }
+
+.carta {
+  width: 600px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-refresh {
+  width: 90%;
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: burlywood;
+  border-radius: 15px;
+  height: 100px;
+  margin: 10px;
+}
+
+.input-search {
+  width: 1000px;
+  height: 20px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+}
