@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Buttermilk Pancakes",
+        "category": "Breakfast",
+        "price": 15.99,
+        "img": "./images/arepa.jpg",
+        "desc": "I'm baby woke milkshake."
+    },
+    {
+        "id": 2,
+        "title": "Buttermilk Pancakes",
+        "category": "Lunch",
+        "price": 15.99,
+        "img": "./images/cachapa.jpg",
+        "desc": "I'm baby woke milkshake."
+    },
+    {
+        "id": 3,
+        "title": "Buttermilk Pancakes",
+        "category": "Shakes",
+        "price": 15.99,
+        "img": "./images/pabellon.jpg",
+        "desc": "I'm baby woke milkshake."
+    }
+]
