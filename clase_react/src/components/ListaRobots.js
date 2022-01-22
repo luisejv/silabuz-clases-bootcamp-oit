@@ -1,14 +1,17 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import QueryContext from "../context/queryContext";
 import Robot from "./Robot";
 
 const client = axios.create({
   baseURL: "https://random-data-api.com/api/users/",
 });
 
-const ListaRobots = ({ query }) => {
+const ListaRobots = () => {
   const [robots, setRobots] = useState([]);
   const [robotsFinal, setRobotsFinal] = useState([]);
+
+  const { query } = useContext(QueryContext);
 
   const fetchRobots = () => {
     client.get("random_user?size=10").then((res) => {
