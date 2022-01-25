@@ -25,4 +25,53 @@ code {
 .footer {
   position: absolute;
   bottom: 0;
+  height: 100px;
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+  color: white;
+  padding: 20px;
 }
+
+.carta {
+  background-color: #eee;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.fixed-height {
+  height: 50px;
+}
+
+.main-content {
+  height: 800px;
+}
+
+.parrafo {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.parrafo h2 {
+  font-size: 30px;
+}
+
+/* .btn-icon {
+  padding: 5px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.btn-icon i {
+  font-size: 7px;
+} */

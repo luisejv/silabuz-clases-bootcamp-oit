@@ -22,5 +22,13 @@
         "price": 15.99,
         "img": "./images/pabellon.jpg",
         "desc": "I'm baby woke milkshake."
+    },
+    {
+        "id": 4,
+        "title": "Pan con chicharron",
+        "category": "Breakfast",
+        "price": 17.00,
+        "img": "./images/chicharron.jpg",
+        "desc": "No es el amor al chancho, sino amor al chicharron."
     }
 ]

@@ -16,7 +16,7 @@ export default function App() {
           <Route path="*" element={<NoPage />}></Route>
         </Route>
         {/* <Route path="/app">
-          <Route path="profile"></Route>
+          <Route path="profile" index element={<Profile />}></Route>
         </Route> */}
       </Routes>
     </BrowserRouter>

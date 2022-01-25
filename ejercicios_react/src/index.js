@@ -4,11 +4,13 @@ import "./index.css";
 import App from "./App";
 import Ejercicio1 from "./Ejercicio1";
 import Ejercicio2 from "./Ejercicio2";
+import Ejercicio3 from "./Ejercicio3";
+import Ejercicio4 from "./Ejercicio4";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Ejercicio4 />
   </React.StrictMode>,
   document.getElementById("root")
 );
